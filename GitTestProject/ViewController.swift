@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBAction func infoButtonClicked(_ sender: Any) {
+        print("This is a test project for understanding Git")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
