@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBAction func infoButtonClicked(_ sender: Any) {
         print("This is a test project for understanding Git")
+        print("...and congrats! You've learned to create and manage a Git repo!")
     }
     
     override func viewDidLoad() {
